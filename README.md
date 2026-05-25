@@ -143,7 +143,7 @@ ssh root@YOUR_SERVER_IP
 ## 2. Run installer
 
 ```bash
-bash <(curl -Ls https://raw.githubusercontent.com/YOUR_USERNAME/stormmastermux/main/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/stormmastermux/main/install.sh)
 ```
 
 ---
@@ -527,7 +527,7 @@ ssh root@YOUR_SERVER_IP
 ## 2. اجرای نصب‌کننده
 
 ```bash
-bash <(curl -Ls https://raw.githubusercontent.com/YOUR_USERNAME/stormmastermux/main/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/stormmastermux/stormmastermux/main/install.sh)
 ```
 
 ---
