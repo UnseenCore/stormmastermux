@@ -273,7 +273,9 @@ chmod +x "$MUX_DIR/stormmastermux"
 
 log "Creating mux configuration..."
 
-cat > "$MUX_DIR/config.toml" <<EOF
+mkdir -p "$MUX_DIR/configs"
+
+cat > "$MUX_DIR/configs/config.toml" <<EOF
 listen = ":53"
 
 storm_backend = "127.0.0.1:$STORM_PORT"
