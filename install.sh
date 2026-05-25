@@ -250,10 +250,16 @@ cd /tmp
 
 rm -rf stormmastermux
 
-
 git clone https://github.com/UnseenCore/stormmastermux.git
 
 cd stormmastermux
+
+go mod init stormmastermux || true
+
+go get github.com/miekg/dns
+go get github.com/pelletier/go-toml/v2
+
+go mod tidy
 
 go build -o stormmastermux ./cmd/stormmastermux
 
