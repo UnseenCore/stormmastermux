@@ -1,0 +1,20 @@
+[server]
+udp_listen = ":53"
+tcp_listen = ":53"
+read_timeout = 5
+write_timeout = 5
+
+[stormdns]
+enabled = true
+domain = "a.example.com."
+backend = "127.0.0.1:5301"
+timeout = 5
+
+[masterdns]
+enabled = true
+domain = "b.example.com."
+backend = "127.0.0.1:5302"
+timeout = 5
+
+[logging]
+level = "info"
